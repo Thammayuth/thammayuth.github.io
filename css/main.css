@@ -1,0 +1,72 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+.about{
+    margin-top: 16px;
+    color: gray;
+}
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 12px 24px;
+}
+
+.container{
+    padding: 128px;
+    background-image:linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.6)), url(https://images.unsplash.com/photo-1581093803931-46e730e7622e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        padding: 48px;
+    }
+}
+
+.contact{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+.content{
+    max-width: 500px;
+}
+
+.contact-icon{
+    width: 16px;
+    margin-right: 12px;
+}
+
+.job{
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.my-photo{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 15px 10px 10px 0px black;
+}
+
+.name{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:768px) {
+    .name{
+        font-size: 36px;
+    }
+}
